@@ -1,0 +1,20 @@
+{
+  "name": "frontend-build-process-2024",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "marp --server .",
+    "html": "marp slides.md",
+    "pdf": "marp --pdf slides.md"
+  },
+  "keywords": [],
+  "author": "TOMIKAWA Sotaro <tommysouta@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "prettier": "^3.2.4"
+  },
+  "packageManager": "pnpm@8.14.2"
+}
