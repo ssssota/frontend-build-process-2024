@@ -5,9 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "marp --server .",
-    "html": "marp slides.md",
-    "pdf": "marp --pdf slides.md"
+    "dev": "marp --server docs",
+    "build": "marp --input-dir docs --output dist"
   },
   "keywords": [],
   "author": "TOMIKAWA Sotaro <tommysouta@gmail.com>",
